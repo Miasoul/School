@@ -16,7 +16,7 @@ async def on_message(msg):
         embed.add_field(name='가입일', value=f"{date.year}/{date.month}/{date.day}")
         embed.set_thumbnail(url=msg.author.avatar)
         await msg.channel.send(embed=embed)
-client.run('ODc2ODAxODU4ODA1NTY3NTA5.GZd8ex.hiAAe-qK_FkkL0NOIoz-_yCGRvsycvyqIB-cmY')
+client.run('')
 
 
 
